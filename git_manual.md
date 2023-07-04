@@ -34,6 +34,17 @@ _git pull_
 5. Type a title and description for your pull request.
 ---
 
+#NO HOMEWORK WITH NO MEMES
+
+![meme_01](hub.jpg)
+
+![meme_02](jun.jpg)
+
+![meme_03](pdr.jpg)
+
+---
+#OLD STUFF
+
 ## how to install git
 1. Begin studying on the GeekBrains educational platform in 2022
 2. Complete Python course, begin to learn Git
