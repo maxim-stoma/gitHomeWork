@@ -97,6 +97,11 @@
 
 Создаем новую ветку и переходим на нее _**git checkout -b Konopliou\_A\_A**_, вносим свои изменения. После чего делаем commit наших изменений
 
+С помощью команды _**git push --set-upstream https://github.com/Angiy555/gitHomeWork.git Konopliou_A_A**_ выгружаем нашу ветку в наш удаленный репозиторий на GitHub
+
+После чего на нашем репозитории GitHub нажимаем кнопку Compare & pull request для отправки внесенных изменений владельцу
+![image](GitHub_3.jpg)
+
 ## Работа с Markdown
 
 ### О языке разметки Markdown
