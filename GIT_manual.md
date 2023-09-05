@@ -10,9 +10,9 @@
 
 ### Работа с версиями
 
-git commit
-git diff
-git log
+* git commit
+* git diff
+* git log
 
 ### Работа с ветками
 
