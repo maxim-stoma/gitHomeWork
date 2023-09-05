@@ -39,3 +39,10 @@
 > _Переход в ветку new_branch для работы в ней._
 * git merge new_branch
 > _Совмещает **текущую ветку** с веткой new_branch._
+
+
+
+### Шпаргалка для наглядности:
+![шпаргалка](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcKLfidttrQb_N2n_LEq2lWoD8xp0Uvb3mR6BpkR4U7zbfAvRtn_n-sDI4OyOF1-8BoKKbYaST2AdsiHPsU8Yu0guwU4kd7O2yLBq5623o3j314D5SbN9nmdX77OV28_GVq1bN87mQu8B-d2cxuQAeblgRRzeDHUbcseGhL92Dx6-qE3yyVVAA4meOTg/s2339/git-cheat-sheet-1.png)
+
+## Записывайтесь на курс "**Git. Базовый курс**" на [GB.ru](https://gb.ru/courses/1117) !
