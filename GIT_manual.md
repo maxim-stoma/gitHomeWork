@@ -6,7 +6,11 @@
 
 * git init
 * git status
-* git commit
+* git add
+
+### Работа с версиями
+
+
 
 ### Работа с ветками
 
