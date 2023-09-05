@@ -23,6 +23,19 @@
 
 ## Синтаксис комманд
 
-git add 
-git commit -m "My comment"
->Сохранение изменений с добавлением комментария.
+* git add file.name
+> Добавление в отслеживаемые необходимого файла.
+* git commit -m "My comment"
+> Сохранение изменений с добавлением комментария.
+* git diff XXYYZZ
+> Показ изменений между текущим состоянием и состоянием XXYYZZ (первые знаки в ID состояния - можно посмотреть через команду git log)
+* git branch new_branch
+> Создает новую ветку new_branch.
+* git branch -d new_branch
+> Удаляет ветку new_branch.
+* git branch
+> Показывает список имеющихся веток.
+* git checkout new_branch
+> Переход в ветку new_branch для работы в ней.
+* git merge new_branch
+> Совмещает текущую ветку с веткой new_branch.
