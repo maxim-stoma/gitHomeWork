@@ -17,4 +17,5 @@ git log
 ### Работа с ветками
 
 * git branch
-* git 
+* git checkout
+* git merge
