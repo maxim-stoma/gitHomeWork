@@ -1,4 +1,7 @@
+![](git.png)
+
 # Инструкции для работы с Git
+
 
 ## Что такое [Git](https://git-scm.com/doc)
 
