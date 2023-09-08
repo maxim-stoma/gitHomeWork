@@ -5,3 +5,10 @@
 4. Создает файл Git_instruction.md
 5. Вносит 5 рандомных команд по работе с git
 6. Делает pull request
+
+# Несколько команд по работе с Git
+ * git status
+ * git init
+ * git add
+ * git commit
+ * git clone
