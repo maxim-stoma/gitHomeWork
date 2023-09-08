@@ -67,4 +67,3 @@
 ![file_not_found](image.jpg)
 ![]()
 [text if image wouldn't uploaded] (file_name)
-!
