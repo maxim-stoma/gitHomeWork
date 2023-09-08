@@ -1,7 +1,0 @@
-# Игнорируем следующие файлы и папки:
-*.md
-*.jpg
-Folder_to_ignore/
-# Исключение для:
-!GIT_manual_log.md
-!Readme.md
