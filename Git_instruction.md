@@ -55,7 +55,9 @@
    2. Accept Incoming Change - принять входящее изменения
    3. Accept Both Changes - принять оба изменения
 
-![ДЗ Конфликт.png](ДЗ Конфликт.png)
+![ДЗ Конфликт.png](ДЗ_Конфликт.png)
+
+
 
   
    # Установка Git для Windows и Mac OS
