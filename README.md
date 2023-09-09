@@ -115,3 +115,6 @@ git branch -d branch_name - deletes the selected branch.
 
 + git clone - we create a copy of the repository, which is located at the link. You can do this from the GitHub by finding the desired repository and clicking on the code button and copying the link;
 ![repository_on_GitHub](файл1.jpeg)
++ git pull - downloads everything from the current repository and consists of two commands: 
+`git fetch` and `git merge` ;
++ git push - sends our version to an external repository (authorization on the external repository is required).
