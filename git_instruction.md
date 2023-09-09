@@ -13,6 +13,9 @@ This instruction is recomended for beginners who start using Git appication.
 * git branch branch_name
 * git merge branch_name
 * git log graph
+* git clone
+* git pull
+* git push
 
 **Git init**. This command *creates an empty Git repository* - basically a .git directory with subdirectories for objects , refs/heads , refs/tags , and template files.
 
