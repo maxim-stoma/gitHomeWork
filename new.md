@@ -49,18 +49,6 @@
 
 *create a new directory*
 
-15. **git clone [HTTP]**
-
-*get your file from github*
-
-16. **git pull**
-
-*get file from remote repository*
-
-17. **git push**
-
-*push your file to remote repository*
-
 
 **image adding**
 
