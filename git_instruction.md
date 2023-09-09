@@ -37,6 +37,11 @@ This instruction is recomended for beginners who start using Git appication.
 
 **Git log grahp**. The git log graph command *creates a graphic overview* of how a developer's various development pipelines have branched and merged over time.
 
+**Git clone**. *Clones a repository into a newly created directory*, creates remote-tracking branches for each branch in the cloned repository, and creates and checks out an initial branch that is forked from the cloned repository’s currently active branch.
+
+**Git pull**. The git pull command *runs git fetch* with the given parameters and then depending on configuration options or command line flags, *will call either git rebase or git merge to reconcile diverging branches*.
+
+**Git push**. The git push command is used to *upload local repository content to a remote repository*.
 
 **! Sometimes conflicts happen, so you need to resolve them using some options under the lines contradicting !**
 
