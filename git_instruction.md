@@ -67,7 +67,7 @@ Merging will open up a window allowing to do followings:
 
 To add and image
 Set the path to the image from folder:
-### **! [Image] (file_name)**
+### **! [Image] (file_name)***
 1. ! - to work with images
 2. [_] - File name for consumer
 3. (_) - Name of the file 
@@ -75,6 +75,17 @@ Set the path to the image from folder:
  *text_no_spaces
 
  ![Pic_example](git_logo.jpeg)
+
+## **Links**
+
+To add a link set the linkname and the path:
+
+[linkname] (web link)*
+
+*text_no_spaces
+
+Example:
+[Git screencast](https://vimeo.com/showcase/5616060)
 
 ## **Git vs Github**
 
@@ -105,7 +116,7 @@ Often used by companies to manage work on projects
 ### Follow certain steps to make such request:
 
 * Create FORK from existing repository
-* Create git clone repository from your FORk
+* Create git clone repository from your FORK
 * Create new branch and make changes
 * Add commits
 * Send finalized version back to GitHub
