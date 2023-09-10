@@ -74,3 +74,6 @@ _**Как сделать pull request?**_
 * Отправляем свою версию в свой GitHub
 * На сайте GitHub нажимаем кнопку pull request 
 
+А это вам Максим)))
+
+![p8LtdVtrzSA.jpg]()
