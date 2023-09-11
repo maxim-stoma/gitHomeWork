@@ -156,3 +156,14 @@ error: Entry '<fileName>' would be overwritten by merge. Cannot merge. (Changes 
 
 
 ---
+## Git в картинках
+
+
+![Alt text](image-2.png)
+
+
+### Третий конфликт
+
+Второй конфликт возник из-за того что начиная с строки 1 до 168 в ветках git_conflicts_info и master не совпадали.
+
+![Alt text](image-4.png)
