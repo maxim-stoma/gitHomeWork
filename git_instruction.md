@@ -75,3 +75,24 @@
 
 * <span style="color:red">**git log --graph**
 ><span style="color:green">Команда которая показывает в терминале графическое представление веток
+
+### Команды по работе с удалённым репозиторием
+
+* <span style="color:red">**git clone**
+><span style="color:green">Команда для копирования существующего удаленного репозитория
+
+* <span style="color:red">**git pull**
+><span style="color:green">Команда для загрузки содержимого из удаленного репозитория и слияния его с локальным репозиторием
+
+* <span style="color:red">**git push**
+><span style="color:green">Команда для выгрузки содержимого из локального репозитория в удаленный репозиторий
+
+* <span style="color:red">**GitHub**
+><span style="color:green">Это один из сервисов для работы с удаленными репозиториями
+
+* <span style="color:red">**Fork**
+><span style="color:green">Функция на GitHub которая позволяет создать копию чужого репозитория на наш аккаунт GitHub и проводить любые изменения не затрагивая оригинальный репозиторий
+
+* <span style="color:red">**Pull request**
+><span style="color:green">Это предложение изменений или поправок кода чужому репозиторию, который мы ранее скопировали с помощью Fork
+
