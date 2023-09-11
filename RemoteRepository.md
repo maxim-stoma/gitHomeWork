@@ -38,6 +38,30 @@ __6.__ Choose one of the options sujested by GitHub and copy-paste comand by com
 
 ### Fork
 
+A fork is a new repository that shares code and visibility settings with the original “upstream” repository. Forks are often used to iterate on ideas or changes before they are proposed back to the upstream repository, such as in open source projects or when a user does not have write access to the upstream repository.
+
+__1.__ Open the project page GitHub.com. In the top-right corner of the page, click **Fork** button.
+![Fork](Fork.png)
+
+*NB! Optionally*
+* *By default, forks are named the same as their upstream repositories. Optionally, to further distinguish your fork, in the "Repository name" field, type a name.*
+
+* *In the "Description" field, type a description of your fork.*
+
+* *Select Copy the MAIN branch only. 
+For many forking scenarios, such as contributing to open-source projects, you only need to copy the default branch. If you do not select this option, all branches will be copied into the new fork.*
+
+__2.__ Click **Create fork**.
+
+Right now, u have a fork of the repository, but you do not have the files in that repository locally on your computer. So now u need to **clone** it.
+
+__3.__ Above the list of files, click **Code**. Copy the URL for the repository.
+![Code](Code.png)
+
+__4.__ Open VS Code and change the current working directory to the location where you want the cloned directory.
+
+__5.__ Type git clone, and then paste the URL you copied earlier. Press Enter. Your local clone will be created.
+
 ### Push&pull
 
 ### Features
