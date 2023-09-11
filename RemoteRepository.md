@@ -13,3 +13,7 @@ It is commonly used to host open source software development projects.
 ### Push&pull
 
 ### Features
+
+### Q&A
+![branch](branch.png)
+Подумала у меня маразм и я пропустила ошибку при переключении на созданную ветку, но нет, я в ветке MaryEgo, но на панели внизу master. Почему? Данным на панели нельзя  доверять?
