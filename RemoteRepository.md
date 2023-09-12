@@ -64,5 +64,57 @@ __5.__ Type git clone, and then paste the URL you copied earlier. Press Enter. Y
 
 ### Push&pull
 
-### Features
+<u>**Git push**</u>
 
+The **git push** command is used to transfer or push the commit, which is made on a local branch in your computer to a remote repository like GitHub. The command used for pushing to GitHub is given below.
+
+*git push 'remote_name' 'branch_name'*
+
+*NB!*
+* *By defolt, when creating remote repository, GitHub offers **"origin"** as remote_name.*
+
+To push the code in your local repository to GitHub use the command:
+
+*git push -u origin master/main*
+
+In the code, the *origin* is your default remote repository name, *'-u'* flag is upstream, which is equivalent to '-set-upstream.'. And the *master* is the branch, name.upstream is the repository that we have cloned the project.
+If browser requests to log-in, fill in your GitHub username and password.
+
+View your files in your repository hosted on GitHub.
+
+<u>**Git pull**</u>
+
+ The **git pull** updates your current local working branch, and all of the remote tracking branches. It's a good idea to run git pull regularly on the branches you are working on locally.
+
+Without git pull, (or the effect of it,) your local branch wouldn't have any of the updates that are present on the remote.
+
+ The simple command to PULL from a branch is:
+ 
+ *git pull 'remote_name' 'branch_name'*
+
+ *NB!*
+ * *It is always a good idea to run **git status** - especially before **git pull**. Changes that are not committed can be overwritten during a **git pull**. Or, they can block the **git merge** portion of the git pull from executing.*
+
+ ### Pull Request
+
+ Pull requests let you tell others about changes you've pushed to a branch in a repository on GitHub. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before your changes are merged into the main branch.
+
+ <u>Creating the pull request</u>
+
+ __1.__ When the changes in forked repository been pushed to GitHub, above the list of files, in the yellow banner, click **Compare & pull request** to create a pull request for the associated branch.
+
+![create_Pull_Req](create_Pull_Req.png)
+
+__2.__ Use the base branch dropdown menu to select the branch you'd like to merge your changes into, then use the compare branch drop-down menu to choose the topic branch you made your changes in.
+
+__3.__ Use the base branch dropdown menu to select the branch you'd like to merge your changes into, then use the compare branch drop-down menu to choose the topic branch you made your changes in.
+
+__4.__ To create a pull request that is ready for review, click Create Pull Request. 
+
+After initializing a **pull request**, you'll see a review page that shows a high-level overview of the changes between your branch (the compare branch) and the repository's base branch.
+
+Once you've created a pull request, you can push commits from your topic branch to add them to your existing pull request. These commits will appear in chronological order within your pull request and the changes will be visible in the "Files changed" tab.
+
+Other contributors can review your proposed changes, add review comments, contribute to the **pull request** discussion, and even add commits to the **pull request**.
+
+*Thanks for watching!*
