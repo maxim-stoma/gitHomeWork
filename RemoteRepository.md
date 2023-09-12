@@ -66,6 +66,3 @@ __5.__ Type git clone, and then paste the URL you copied earlier. Press Enter. Y
 
 ### Features
 
-### Q&A
-![branch](branch.png)
-Подумала у меня маразм и я пропустила ошибку при переключении на созданную ветку, но нет, я в ветке MaryEgo, но на панели внизу master. Почему? Данным на панели нельзя  доверять?
