@@ -15,7 +15,7 @@ __1.__ Go to GitHub.com
 __2.__ In the upper-right corner of any page, use the  drop-down menu, and select New repository.
 ![New_rep](New_rep.png)
 
-__3.__ Type a short, memorable name for your repository. For example, "HomeWork_3".
+__3.__ Type a short name for your repository. For example, "HomeWork_3".
 ![Rep_Name](Rep_Name.png)
 
 *NB! Optionally*
@@ -62,16 +62,13 @@ __4.__ Open VS Code and change the current working directory to the location whe
 
 __5.__ Type git clone, and then paste the URL you copied earlier. Press Enter. Your local clone will be created.
 
+![Clone](Clone.png)
+
 ### Push&pull
 
 <u>**Git push**</u>
 
-The **git push** command is used to transfer or push the commit, which is made on a local branch in your computer to a remote repository like GitHub. The command used for pushing to GitHub is given below.
-
-*git push 'remote_name' 'branch_name'*
-
-*NB!*
-* *By defolt, when creating remote repository, GitHub offers **"origin"** as remote_name.*
+The **git push** command is used to transfer or push the commit, which is made on a local branch in your computer to a remote repository like GitHub.
 
 To push the code in your local repository to GitHub use the command:
 
