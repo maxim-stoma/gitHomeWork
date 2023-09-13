@@ -200,7 +200,7 @@ git check-ignore (открывает новое окно)команда сооб
 6. Отправляем сделанную версию в свой Github
 
 7. На сайте Github нажимаем кнопку **pull request**.
- <div style="width: 30%; height: 10%">
+ <div style="width: 40%; height: 10%">
   
   ![pull.png](pull.png)
   
