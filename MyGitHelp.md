@@ -9,7 +9,7 @@
 
 Эту инструкцию написал этот git:
 
-![Some git](ProfilePhoto.jpg)
+![Some git](https://s76vlx.storage.yandex.net/rdisk/e16cc65bf021aa21f271befb253c37ece675c09a4d51368040417e7fd2035e8e/6501b541/MmrzcZdFqBsuAaoM02nEu40aFHfZ0HM_lAf7zYILhQHxiIFT0qKpWgtrCKdpk-bV6YBQeWAXmvoNQtPFH2A-Qg==?uid=0&filename=ProfilePhoto.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&fsize=703241&hid=f164b8e4c3a79ed4f380efcc4b63f79d&media_type=image&tknv=v2&etag=7d8a3eb5b87a753a717e76489650507f&rtoken=1Sg4MehunQxo&force_default=no&ycrid=na-01180b052967da50384b14e8f4459542-downloader19e&ts=6053d4ff71240&s=ac4096c9bb58ba36008cd3f50d43b30dcd92ff7755979c3c7e723b80142b421c&pb=U2FsdGVkX18Rj4DFUTrJsumDG55K3fZdhKz5syjJbvHLUWZJTr9O77YtUwrZDYoNe7Ixq1T5MXlzTYjGqa_c8zorhmzKoklnJhQvJQzYM5w)
 
 # Документация
 
@@ -132,7 +132,7 @@ delete_repo - удаление репозиториев
 
 Пример конфликта:
 
-![Скриншот примера конфликта при слиянии (домашнее задание)](MergeConflictSample.png)
+![Скриншот примера конфликта при слиянии (домашнее задание)](https://s373vla.storage.yandex.net/rdisk/72ee7c288dd7e89044e9d33cbeb1ee6b74f035945cbd0875058b12d20372766b/6501b56f/MmrzcZdFqBsuAaoM02nEu2q_XlcrxkHI77HJcbg_qUkd5R4hmUUeas2ePgf_bDI8r9YI29UkB7jJ12qPiIqdCg==?uid=0&filename=MergeConflictSample.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=0&fsize=125419&hid=c51c344026b54501683c021f5059aaba&media_type=image&tknv=v2&etag=0a0e8557770759d1486bacb83bbe42d9&rtoken=c9F5kR9WZTVR&force_default=no&ycrid=na-55b1cad094abe2f1837a332bc51f9869-downloader19e&ts=6053d52b4f9c0&s=9ae34c7d062f933f6c25564bc61ce9eda8c163327764775859e66136bbf60f6e&pb=U2FsdGVkX19vHEj9IeTaTbbBfTapl3zd2nCdLZ0k-yTqcxHIZMxJW4kc3MuI6c9lEe0Oo6AMZzo3_IIG7wxhH3kI0Inc_FzrFpvRQGJpv3g)
 
 # Полное описание команд
 
