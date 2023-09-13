@@ -99,3 +99,5 @@
 * git branch -M main
 * git remote add origin https://github.com/LukshaMary/[имя_файла].git
 * git push -u origin main
+
+После использования команды git push, если ты работает в новой ветке (которой нет на GitHub), то высветится ошибка. Исправить ситуацию поможет команда, которую подсказывает git: **git push --set-upstream origin <имя_ветки>**, а после исполнения данной команды на GitHub появится предложение произвести compare & pull request 
