@@ -134,6 +134,66 @@ delete_repo - удаление репозиториев
 
 ![Скриншот примера конфликта при слиянии (домашнее задание)](https://s373vla.storage.yandex.net/rdisk/72ee7c288dd7e89044e9d33cbeb1ee6b74f035945cbd0875058b12d20372766b/6501b56f/MmrzcZdFqBsuAaoM02nEu2q_XlcrxkHI77HJcbg_qUkd5R4hmUUeas2ePgf_bDI8r9YI29UkB7jJ12qPiIqdCg==?uid=0&filename=MergeConflictSample.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=0&fsize=125419&hid=c51c344026b54501683c021f5059aaba&media_type=image&tknv=v2&etag=0a0e8557770759d1486bacb83bbe42d9&rtoken=c9F5kR9WZTVR&force_default=no&ycrid=na-55b1cad094abe2f1837a332bc51f9869-downloader19e&ts=6053d52b4f9c0&s=9ae34c7d062f933f6c25564bc61ce9eda8c163327764775859e66136bbf60f6e&pb=U2FsdGVkX19vHEj9IeTaTbbBfTapl3zd2nCdLZ0k-yTqcxHIZMxJW4kc3MuI6c9lEe0Oo6AMZzo3_IIG7wxhH3kI0Inc_FzrFpvRQGJpv3g)
 
+# Исправление ошибки [remote rejected]
+
+Если Git при попытке `push` выдает ошибку:
+
+`! [remote rejected] main -> main (permission denied)`
+
+или
+
+`! [remote rejected] <branch_name> -> <branch_name> (permission denied)`
+
+это означает ошибку в конфигурации программы Git на компьютере. В этом случае используем следующую инструкцию:
+
+1. Открываем для редактирования глобальный config для экземпляра Git, установленного на компьютер
+
+    `git config --global --edit`
+
+2. Добавляем необходимые разрешения:
+
+        [credential]
+            helper = <Nickname>
+            useHttpPath = true
+
+3. Закрываем файл
+
+4. Вновь выполняем `push`
+
+5. Проходим авторизацию на GitHub
+
+# Внесение изменений в созданные ветки в удаленном репозитории через подключение их к созданным веткам в локальном репозитории
+
+Мы можем выполнять изменения в удаленном репозитории из локального репозитория даже в том случае, если локальный репозиторий не является результатом выполнения команды `clone`. Для этого выполняем следующие действия:
+
+1. Создаем локальный репозиторий с произвольным именем.
+
+1. Создаем ветку с именем, аналогичным уже имеющейся ветке в удаленном репозитории, или новым произвольным именем.
+
+1. Подключаем удаленный репозиторий с помощью 
+
+    `git remote add origin <URL>`
+
+1. Переключаемся на нужную ветку, выполняем
+    
+    `pull origin <branch_name>`
+    
+    где `<branch_name>` - имя той ветки удаленного репозитория, которую необходимо связать с текущей веткой локального репозитория.
+
+1. Вносим необходимые изменения в файлы.
+
+1. Выполняем 
+    
+    `git push --set-upstream origin <branch_name>`
+    
+    где `<branch_name>` - имя той ветки удаленного репозитория, которую необходимо связать с текущей веткой локального репозитория.
+
+1. Дальнейшие изменения можно загружать в удаленный репозиторий с помощью
+
+    `git push`
+    
+    при этом, т.к. ветки уже связаны, нет необходимости указывать адрес назначения.
+
 # Полное описание команд
 
 `git init`
