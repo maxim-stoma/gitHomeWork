@@ -57,7 +57,7 @@
 ## Работа с удаленными репозиториями
 
  **GITHUB** - веб-сервис для организации работы удаленных 
-репозиториев. [Ссылка на сервис.](https://github.com/dashboard "https://github.com/dashboard")
+репозиториев. [Ссылка на сервис.](https://github.com/dashboard "https://github.com/dashboard") Для работы на сервисе GitHub необходима регистрация.
 
 ![githublogo.jpeg](githublogo.jpeg)
 
