@@ -20,3 +20,9 @@
 Переходим в директорию со скопированным репозиторием
 cd <имя директории>
 ![ChangeDir](ChangeDir.png)
+
+## Создаем новую ветку и переходим в нее
+ * **git branch** - просмотр существующих веток
+ * **git branch <branch_name>** - создание ветки с именем *branch_name*
+ * **git checkout <branch_name>** - переход в ветку с именем *branch_name*
+![BranchMade](BranchMade.png)
