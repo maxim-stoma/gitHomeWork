@@ -45,3 +45,6 @@ cd <имя директории>
 ## Отправка проделанной работы на GitHUB
 
 **git push --set-upstream origin <branch_name>**
+![PushInfo](PushInfo.png)
+Обновление информации на **gitHub**
+![PushInfo2](PushInfo2.png)
