@@ -91,3 +91,4 @@ _git config --global user.email myEmail@example.com_
 ## Конфликт при слиянии веток master и GitForDelete
 ![конфликт.png](конфликт.png)
 
+# Всего доброго ≽^•⩊•^≼
