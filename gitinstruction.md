@@ -27,3 +27,6 @@
 ***Вуаля, вы великолепны!***
 
 Далее работу продолжает владелец внешнего репозитория.
+
+![This branch has no conflicts with the base branch](../pullreqdone.png)
+
