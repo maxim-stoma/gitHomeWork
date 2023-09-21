@@ -133,6 +133,14 @@ In our case we will choose "Accept incoming Change"
 
 ## Remote repositories
 
+In order to start working with remote repositories, you must first register on the **GitHub** platform
+
+After you need a link to the remote repository, with the help of this link you can clone the remote repository on your computer using the command **git clone link_address**
+
+You can upload to a remote repository using the command **git puch**, but you must have 
+access to the repository, so Git can request your authentication data from your GitHub account
+
+you can check the connection with the remote repository using the **git remote** command
 
 
 ## Basic Commands
