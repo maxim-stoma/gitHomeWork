@@ -10,6 +10,7 @@
 * На сайте GitHub выполнить Pull request.
 
 
+
 # Инструкция пользования Git
 ## Команды в Git
 1. git --version
