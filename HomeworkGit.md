@@ -51,3 +51,18 @@
 2. Неотслеживаемый файл — файл, который не был проиндексирован или зафиксирован в коммите.
 3. Игнорируемый файл — файл, явным образом помеченный для Git как файл, который необходимо игнорировать.
 
+* Pull request 
+
+**Pull requests can be used in conjunction with the Feature Branch Workflow, the Gitflow Workflow, or the Forking Workflow. But a pull request requires either two distinct branches or two distinct repositories, so they will not work with the Centralized Workflow. Using pull requests with each of these workflows is slightly different, but the general process is as follows:**
+
+**A developer creates the feature in a dedicated branch in their local repo.**
+
+1. The developer pushes the branch to a public Bitbucket repository.
+
+2. The developer files a pull request via Bitbucket.
+
+3. The rest of the team reviews the code, discusses it, and alters it.
+
+4. The project maintainer merges the feature into the official repository and closes the pull request.
+
+5. The rest of this section describes how pull requests can be leveraged against different collaboration workflows.
