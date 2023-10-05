@@ -66,3 +66,8 @@
 4. The project maintainer merges the feature into the official repository and closes the pull request.
 
 5. The rest of this section describes how pull requests can be leveraged against different collaboration workflows.
+
+* Git clone 
+
+*Если проект уже настроен в центральном репозитории, наиболее распространенным способом создать его локальный клон является команда clone. Клонирование, как и команда git init, обычно выполняется один раз. Получив рабочую копию, разработчик в дальнейшем выполняет все операции контроля версий из своего локального репозитория.*
+__sample: "git clone <repo url>"__
