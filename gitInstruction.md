@@ -152,3 +152,4 @@ git commit -am "Текст сообщения"
 6. На сайте GitHub нажимаем кнопку pull request
 
 ![Спасибо за внимание!](23.jpg)
+![I'm Sorry](ImSorry.jpg)
